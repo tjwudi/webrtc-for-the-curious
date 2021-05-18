@@ -25,7 +25,7 @@ Real-time media is about making trade-offs between latency and quality. The more
 These constraints are all caused by the limitations of the real world. They are all characteristics of your network that you will need to overcome.
 
 ### Video is Complex
-Transporting video isn't easy. To store 30 minutes of uncompressed 720 8-bit video you need ~110Gb. With those numbers, a 4-person conference call isn't going to happen. We need a way to make it smaller, and the answer is video compression. That doesn't come without downsides though.
+Transporting video isn't easy. To store 30 minutes of uncompressed 720p 8-bit video you need ~110Gb (assuming 24fps). With those numbers, a 4-person conference call isn't going to happen. We need a way to make it smaller, and the answer is video compression. That doesn't come without downsides though.
 
 ## Video 101
 We aren't going to cover video compression in depth, but just enough to understand why RTP is designed the way it is. Video compression encodes video into a new format that requires fewer bits to represent the same video.
